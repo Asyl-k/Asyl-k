@@ -10,6 +10,9 @@ Java Backend Developer. В этом портфолио собраны самос
 
 | Проект | Что демонстрирует |
 |---|---|
+| [Auth Service](https://github.com/Asyl-k/auth-service) | Spring Security, JWT, BCrypt и stateless authentication |
+| [API Gateway](https://github.com/Asyl-k/api-gateway) | Spring Cloud Gateway, маршрутизация и circuit breaker |
+| [URL Shortener Service](https://github.com/Asyl-k/url-shortener-service) | Secure short codes, expiration, caching и click tracking |
 | [Payment Ledger Service](https://github.com/Asyl-k/payment-ledger-service) | Переводы, идемпотентность, `BigDecimal`, блокировки счетов в стабильном порядке |
 | [Inventory Service](https://github.com/Asyl-k/inventory-service) | Резервирование остатков и pessimistic locking против overselling |
 | [Booking Service](https://github.com/Asyl-k/booking-service) | Проверка пересекающихся интервалов, границы временных слотов и отмена |
@@ -23,4 +26,4 @@ Java Backend Developer. В этом портфолио собраны самос
 - Транзакционные границы, проверки инвариантов и обработка повторов.
 - Unit-тесты бизнес-сценариев и CI на каждый репозиторий.
 
-Это личные учебные проекты для демонстрации подходов и развития навыков; они не являются описанием коммерческого опыта.
+Это личные проекты для демонстрации архитектурных подходов и развития навыков; они не являются описанием коммерческого опыта.
