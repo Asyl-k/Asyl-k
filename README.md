@@ -1,19 +1,26 @@
 # Привет! Я Asyl 👋
 
-Начинающий Java Backend Developer. Изучаю разработку REST API и backend-сервисов на Java и Spring Boot.
+Java Backend Developer. В этом портфолио собраны самостоятельные проекты, демонстрирующие практики, востребованные в production backend-разработке: транзакции, конкурентный доступ, идемпотентность, асинхронные события и автоматизированные проверки.
 
-## Технологии
+## Стек
 
-`Java 21` · `Spring Boot` · `REST API` · `PostgreSQL` · `JPA/Hibernate` · `Maven` · `JUnit 5` · `Docker` · `Git`
+`Java 21` · `Spring Boot 3` · `Spring Data JPA` · `PostgreSQL` · `Kafka` · `REST API` · `JUnit 5` · `Mockito` · `Maven` · `Docker` · `GitHub Actions`
 
 ## Проекты
 
-- [Task Manager API](https://github.com/Asyl-k/task-manager-api) — REST API для задач: Spring Boot, PostgreSQL, валидация, OpenAPI, тесты, Docker Compose и GitHub Actions.
+| Проект | Что демонстрирует |
+|---|---|
+| [Payment Ledger Service](https://github.com/Asyl-k/payment-ledger-service) | Переводы, идемпотентность, `BigDecimal`, блокировки счетов в стабильном порядке |
+| [Inventory Service](https://github.com/Asyl-k/inventory-service) | Резервирование остатков и pessimistic locking против overselling |
+| [Booking Service](https://github.com/Asyl-k/booking-service) | Проверка пересекающихся интервалов, границы временных слотов и отмена |
+| [Order Service](https://github.com/Asyl-k/order-service) | Идемпотентное создание и конечный автомат состояний заказа |
+| [Notification Service](https://github.com/Asyl-k/notification-service) | Kafka consumer, at-least-once delivery и дедупликация событий |
+| [Task Manager API](https://github.com/Asyl-k/task-manager-api) | REST API, CRUD, валидация, OpenAPI, Docker Compose и CI |
 
-## Сейчас изучаю
+## Практики
 
-Spring Security и JWT, транзакции, SQL и основы микросервисной архитектуры.
+- Разделение HTTP, бизнес-логики и persistence-слоёв.
+- Транзакционные границы, проверки инвариантов и обработка повторов.
+- Unit-тесты бизнес-сценариев и CI на каждый репозиторий.
 
----
-
-Я открыт к стажировкам и junior-позициям в Java backend-разработке.
+Это личные учебные проекты для демонстрации подходов и развития навыков; они не являются описанием коммерческого опыта.
